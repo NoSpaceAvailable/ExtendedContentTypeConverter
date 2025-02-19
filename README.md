@@ -1,7 +1,7 @@
 Extended Content-Type Converter
 =========
 
-Burp extension to convert between XML, JSON and form-urlencoded.
+Burp extension to convert between XML, JSON, form-data and form-urlencoded.
 
 Requirements: Java 17 and above (I re-wrote this extension with java 17)
 
