@@ -25,7 +25,7 @@ Build instruction
 - Open CLI, navigate to the directory where *build.gradle* located
 - Run `gradle fatjar`:
 
-![img_1.png](img_1.png)
+![image](https://github.com/user-attachments/assets/54411711-4ea1-4d40-ba43-93d8501ff4cf)
 
 ### Using CLI ###
 - ...
@@ -34,11 +34,11 @@ How to use
 =========
 - The .jar file is located at build/libs:
 
-![img.png](img.png)
+![image](https://github.com/user-attachments/assets/0a030d0e-ab59-4add-a709-24ec2e23f43b)
 
 - Import to your BurpSuite and enjoys!
 
-![Untitled.png](Untitled.png)
+![Untitled](https://github.com/user-attachments/assets/29b1ae18-1b1c-46e3-af75-e6257d59e81c)
 
 Examples usage
 =========
