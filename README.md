@@ -24,13 +24,14 @@ Build instruction
 
 ### Using Intellij IDEA (recommended) ###
 - Just import this project to IDEA and wait for Gradle to load dependencies.
-- Open CLI, navigate to the directory where *build.gradle* located
-- Run `gradle fatjar`:
+- Do as follow:
 
-![image](https://github.com/user-attachments/assets/54411711-4ea1-4d40-ba43-93d8501ff4cf)
+![Untitled](https://github.com/user-attachments/assets/578ba36d-9cc6-471a-892e-af6c758da845)
+![image](https://github.com/user-attachments/assets/32e410d0-b587-4106-85fd-7954fd1a57f6)
 
 ### Using CLI ###
-- ...
+- Change directory to where the build.gradle located, then run `gradle fatJar`
+(This sometime doesn't work, I'm figuring out)
 
 How to use
 =========
