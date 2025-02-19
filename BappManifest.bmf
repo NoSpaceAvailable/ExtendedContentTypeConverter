@@ -1,0 +1,12 @@
+Uuid: db57ecbe2cb7446292a94aa6181c9278
+ExtensionType: 1
+Name: Extended Content-Type Converter
+RepoName: extended-content-type-converter
+ScreenVersion: 1.5
+SerialVersion: 4
+MinPlatformVersion: 0
+ProOnly: False
+Author: NoSpaceAvailable
+ShortDescription: Conversion between JSON, XML and body parameters.
+EntryPoint: build/libs/extended-content-type-converter-all.jar
+BuildCommand: gradle fatJar

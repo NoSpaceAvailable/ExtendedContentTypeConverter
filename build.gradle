@@ -1,0 +1,25 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.portswigger.burp.extender:burp-extender-api:1.7.13'
+    implementation 'org.json:json:20250107'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'ExtendedContentTypeConverter/src'
+        }
+    }
+}
+
+task fatJar(type: Jar) {
+    archiveBaseName.set(project.name + '-all') // FIX: Replaces baseName
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE;
+    from { configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) } } // FIX: Use runtimeClasspath instead of compile
+    with jar
+}
