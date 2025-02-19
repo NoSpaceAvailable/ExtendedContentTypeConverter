@@ -14,7 +14,7 @@ public class Menu implements IContextMenuFactory {
     public Utilities utilities = new Utilities();
 
     public List<JMenuItem> createMenuItems(final IContextMenuInvocation invocation) {
-        List<JMenuItem> menus = new ArrayList();
+        List<JMenuItem> menus = new ArrayList<>();
 
         if (invocation.getToolFlag() != IBurpExtenderCallbacks.TOOL_INTRUDER && invocation.getInvocationContext() != IContextMenuInvocation.CONTEXT_MESSAGE_EDITOR_REQUEST){
             return menus;
