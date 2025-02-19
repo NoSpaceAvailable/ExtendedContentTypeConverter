@@ -20,6 +20,8 @@ Note that wrong formatted data will not be converted. For example, attempt to co
 
 Build instruction
 =========
+(If you don't want to build again, just skip this instruction. This repo has a pre-built .jar file)
+
 ### Using Intellij IDEA (recommended) ###
 - Just import this project to IDEA and wait for Gradle to load dependencies.
 - Open CLI, navigate to the directory where *build.gradle* located
