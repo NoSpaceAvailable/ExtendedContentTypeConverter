@@ -31,7 +31,7 @@ Build instruction
 
 ### Using CLI ###
 - Change directory to where the build.gradle located, then run `gradle fatJar`
-(This sometime doesn't work, I'm figuring out)
+(This sometime doesn't work, I'm figuring out). Ensure that `java -version` and `javac -version` output the same version.
 
 How to use
 =========
